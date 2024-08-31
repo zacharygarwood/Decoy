@@ -12,9 +12,14 @@ func Generate(
     accountId string,
     length int,
 ) string {
-    iterations := 4096
-    key := pbkdf2.Key([]byte(masterPassword), []byte(accountId), iterations, length, sha256.New)
-    password := base64.URLEncoding.EncodeToString(key)
+    iterations := 100000
+    combined := []byte(masterPassword + accountId)
+
+    initialKey := pbkdf2.Key(combined, combined, iterations, length, sha256.New)
+    intermediate := sha256.Sum256(initialKey)
+    finalKey := pbkdf2.Key(intermediate[:], combined, iterations, length, sha256.New)
+
+    password := base64.URLEncoding.EncodeToString(finalKey)
 
     fmt.Println("Generated password: " + password)
     return password
