@@ -2,10 +2,13 @@
 A password management system without storing the passwords.
 
 # Introduction
-Everyday it feels like there is a new leak in the news like `"ATTENTION: 3 GAZILLION SOCIAL SECURITY NUMBERS LEAKED"`. Often these leaks are the result
-of bad passwords. It's no surprise considering an 8 digit password can be hacked in less than one hour.
+Everyday it feels like there is a new leak in the news like: 
+```
+ATTENTION: 3 GAZILLION SOCIAL SECURITY NUMBERS LEAKED!!!
+```
+Often these leaks are the result of bad passwords, and it's no surprise considering an 8 digit password can be hacked in less than one hour.
 
-You may be thinking, "Use a password manager like 1Password!" The issue with those is they store your passwords (albeit encrypted) on their servers, what if they get hacked?
+You may be thinking, "Use a password manager like 1Password!" The issue with those is they store your passwords, *albeit encrypted*, on their servers, what if they get hacked?
 Decoy does not store any information about a user so you don't need to worry about that. You might say,"Okay then, just use a longer password and mix em up. Problem solved!" 
 and you would be right. The issue with that is I'm *lazy* and I don't want to remember long passwords for different sites.
 
@@ -16,7 +19,7 @@ Decoy generates 32 character passwords that should meet all the requirements imp
 
 # Example
 Let's call the password you know `master password` and the identifier `account identifier`. Say you wanted to store a password for amazon.com. 
-You would enter in your master password e.g. `sup3rc00l` and the account identifier `amazon.com`. You'll get a generated password that is specific to these two inputs.
+You would enter in your master password `sup3rc00l` and the account identifier `amazon.com`. You'll get a generated password that is specific to these two inputs.
 These inputs can be used to retrieve a previously generated password given they are the same inputs used before. This is possible due to the deterministic approach Decoy uses
 when generating a password. Below is a diagram to help explain:
 
