@@ -8,7 +8,7 @@ ATTENTION: 3 GAZILLION SOCIAL SECURITY NUMBERS LEAKED!!!
 ```
 Often these leaks are the result of bad passwords, and it's no surprise considering an 8 digit password can be hacked in less than one hour.
 
-You may be thinking, "Use a password manager like 1Password!" The issue with those is they store your passwords, *albeit encrypted*, on their servers, what if they get hacked?
+You may be thinking, "Use a password manager like 1Password, that solves it!" The issue with those is they store your passwords, *albeit encrypted*, on their servers, what if they get hacked?
 Decoy does not store any information about a user so you don't need to worry about that. You might say,"Okay then, just use a longer password and mix em up. Problem solved!" 
 and you would be right. The issue with that is I'm *lazy* and I don't want to remember long passwords for different sites.
 
