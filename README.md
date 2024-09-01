@@ -1,5 +1,5 @@
 # Decoy
-A password management system without storing the passwords.
+A password management system that doesn't store passwords.
 
 # Introduction
 Everyday it feels like there is a new leak in the news like: 
