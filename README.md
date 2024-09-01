@@ -12,7 +12,7 @@ You may be thinking, "Use a password manager like 1Password, that solves it!" Th
 Decoy does not store any information about a user so you don't need to worry about that. You might say,"Okay then, just use a longer password and mix em up. Problem solved!" 
 and you would be right. The issue with that is I'm *lazy* and I don't want to remember long passwords for different sites.
 
-That's where Decoy comes in. All you need to know is **one** password and an identifier to let you know what the password is for.
+That's where Decoy comes in. All you need to know is *one* password and an identifier to let you know what the password is for.
 
 Decoy generates 32 character passwords that should meet all the requirements imposed by apps nowadays. Good thing for you is that 32 characters will take roughly
 1.6894617970400734e+42 years to crack or $771,433,818,790,075,000,000,000,000,000,000,000,000,000,000. Safe to say you probably won't get hacked :)
@@ -49,3 +49,4 @@ Go ahead and enter in the information. Once you do so you'll see a message like 
 Generated password: 7McAskn1t_HaERILsRfwWR0ja6hFvWwA-T3CTZjcXRs=`
 ```
 
+<sub><sup>Disclaimer: I'm not a cryptography expert so use this tool at your own risk. I'm NOT responsible for you getting hacked. 🤝</sup></sub>
