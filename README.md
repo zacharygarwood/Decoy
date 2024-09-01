@@ -1,6 +1,8 @@
 # Decoy
 A password management system that doesn't store passwords.
 
+<sub><sup>Disclaimer: I'm not a cryptography expert so use this tool at your own risk. I'm NOT responsible for you getting hacked. 🤝</sup></sub>
+
 # Introduction
 Everyday it feels like there is a new leak in the news like: 
 ```
@@ -48,5 +50,3 @@ Go ahead and enter in the information. Once you do so you'll see a message like 
 ```
 Generated password: 7McAskn1t_HaERILsRfwWR0ja6hFvWwA-T3CTZjcXRs=`
 ```
-
-<sub><sup>Disclaimer: I'm not a cryptography expert so use this tool at your own risk. I'm NOT responsible for you getting hacked. 🤝</sup></sub>
