@@ -4,14 +4,14 @@ A password management system that doesn't store passwords.
 <sub><sup>Disclaimer: I'm not a cryptography expert so use this tool at your own risk. I'm NOT responsible for you getting hacked. 🤝</sup></sub>
 
 # Introduction
-Everyday it feels like there is a new leak in the news like: 
+Everyday it feels like there is a new leak in the news: 
 ```
 ATTENTION: 3 GAZILLION SOCIAL SECURITY NUMBERS LEAKED!!!
 ```
 Often these leaks are the result of bad passwords, and it's no surprise considering an 8 digit password can be hacked in less than one hour.
 
 You may be thinking, "Use a password manager like 1Password, that solves it!" The issue with those is they store your passwords, *albeit encrypted*, on their servers, what if they get hacked?
-Decoy does not store any information about a user so you don't need to worry about that. You might say,"Okay then, just use a longer password and mix em up. Problem solved!" 
+Decoy avoids this by not storing any information on a user. You might say,"Okay then, just use a longer password and mix em up. Problem solved!" 
 and you would be right. The issue with that is I'm *lazy* and I don't want to remember long passwords for different sites.
 
 That's where Decoy comes in. All you need to know is *one* password and an identifier to let you know what the password is for.
@@ -30,7 +30,7 @@ when generating a password. Below is a diagram to help explain:
 Each time `sup3rc00l` and `amazon.com` are used `7McAskn1t_HaERILsRfwWR0ja6hFvWwA-T3CTZjcXRs=` will be generated.
 
 # Usage
-You'll need Go installed. Follow this [doc](https://go.dev/doc/install) to install it if you haven't.
+You'll need Go installed. Follow this [doc](https://go.dev/doc/install) to install it if you haven't already.
 
 Once you have everything installed, you can run the following in the terminal:
 
